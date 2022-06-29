@@ -48,7 +48,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'lib', 'index.ts'),
-      name: 'WalletLink',
+      name: 'YourLibrary',
       fileName: (ext) => `index.${ext}.js`,
       // for UMD name: 'GlobalName'
     },
